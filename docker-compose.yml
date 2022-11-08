@@ -1,0 +1,12 @@
+version: '3'
+services:
+  auth_service:
+    build: .
+    image: auth-service:latest
+    platform: linux/amd64
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
