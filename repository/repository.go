@@ -1,9 +1,9 @@
 package repository
 
 import (
+	auth "github.com/yahya077/otp-golang"
 	"github.com/yahya077/otp-golang-example/database"
 	"github.com/yahya077/otp-golang-example/model"
-	"github.com/yahya077/otp-golang-example/service/auth"
 	"time"
 )
 
